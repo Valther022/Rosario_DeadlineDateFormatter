@@ -9,7 +9,7 @@ day_index = calendar.day_name[weekday]
 
 print("")
 
-print(f"Event: {event.upper}")
+print(f"Event: {event.upper()}")
 print(f"Date: {calendar.month_name[month]} {day}, {year}")
 print(f"Year: {year}")
 print(f"Month: {calendar.month_name[month]}")
